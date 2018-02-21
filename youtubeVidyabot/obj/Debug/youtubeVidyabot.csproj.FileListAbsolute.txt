@@ -1,0 +1,25 @@
+c:\users\admin\documents\visual studio 2017\Projects\youtubeVidyabot\youtubeVidyabot\bin\Debug\youtubeVidyabot.exe.config
+c:\users\admin\documents\visual studio 2017\Projects\youtubeVidyabot\youtubeVidyabot\bin\Debug\youtubeVidyabot.exe
+c:\users\admin\documents\visual studio 2017\Projects\youtubeVidyabot\youtubeVidyabot\bin\Debug\youtubeVidyabot.pdb
+c:\users\admin\documents\visual studio 2017\Projects\youtubeVidyabot\youtubeVidyabot\obj\Debug\youtubeVidyabot.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2017\Projects\youtubeVidyabot\youtubeVidyabot\obj\Debug\youtubeVidyabot.Form1.resources
+c:\users\admin\documents\visual studio 2017\Projects\youtubeVidyabot\youtubeVidyabot\obj\Debug\youtubeVidyabot.Properties.Resources.resources
+c:\users\admin\documents\visual studio 2017\Projects\youtubeVidyabot\youtubeVidyabot\obj\Debug\youtubeVidyabot.csproj.GenerateResource.Cache
+c:\users\admin\documents\visual studio 2017\Projects\youtubeVidyabot\youtubeVidyabot\obj\Debug\youtubeVidyabot.csproj.CoreCompileInputs.cache
+c:\users\admin\documents\visual studio 2017\Projects\youtubeVidyabot\youtubeVidyabot\obj\Debug\youtubeVidyabot.exe
+c:\users\admin\documents\visual studio 2017\Projects\youtubeVidyabot\youtubeVidyabot\obj\Debug\youtubeVidyabot.pdb
+C:\Users\Admin\Desktop\youtubeVidyabot\youtubeVidyabot\bin\Debug\youtubeVidyabot.exe.config
+C:\Users\Admin\Desktop\youtubeVidyabot\youtubeVidyabot\bin\Debug\youtubeVidyabot.exe
+C:\Users\Admin\Desktop\youtubeVidyabot\youtubeVidyabot\bin\Debug\youtubeVidyabot.pdb
+C:\Users\Admin\Desktop\youtubeVidyabot\youtubeVidyabot\obj\Debug\youtubeVidyabot.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\youtubeVidyabot\youtubeVidyabot\obj\Debug\youtubeVidyabot.Form1.resources
+C:\Users\Admin\Desktop\youtubeVidyabot\youtubeVidyabot\obj\Debug\youtubeVidyabot.Properties.Resources.resources
+C:\Users\Admin\Desktop\youtubeVidyabot\youtubeVidyabot\obj\Debug\youtubeVidyabot.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\youtubeVidyabot\youtubeVidyabot\obj\Debug\youtubeVidyabot.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\youtubeVidyabot\youtubeVidyabot\obj\Debug\youtubeVidyabot.exe
+C:\Users\Admin\Desktop\youtubeVidyabot\youtubeVidyabot\obj\Debug\youtubeVidyabot.pdb
+C:\Users\Admin\Desktop\youtubeVidyabot\youtubeVidyabot\bin\Debug\youtubeVidyabot.exe.manifest
+C:\Users\Admin\Desktop\youtubeVidyabot\youtubeVidyabot\bin\Debug\youtubeVidyabot.application
+C:\Users\Admin\Desktop\youtubeVidyabot\youtubeVidyabot\obj\Debug\youtubeVidyabot.TrustInfo.xml
+C:\Users\Admin\Desktop\youtubeVidyabot\youtubeVidyabot\obj\Debug\youtubeVidyabot.exe.manifest
+C:\Users\Admin\Desktop\youtubeVidyabot\youtubeVidyabot\obj\Debug\youtubeVidyabot.application

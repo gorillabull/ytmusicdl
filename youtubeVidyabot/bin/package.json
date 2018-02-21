@@ -1,0 +1,49 @@
+{
+  "name": "ytdl",
+  "description": "A command line streaming youtube video downloader.",
+  "keywords": [
+    "youtube",
+    "download",
+    "video",
+    "cli"
+  ],
+  "version": "0.10.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fent/node-ytdl.git"
+  },
+  "author": "fent (https://github.com/fent)",
+  "main": "./lib/index.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "ytdl": "./bin/ytdl.js"
+  },
+  "scripts": {
+    "test": "istanbul cover node_modules/.bin/_mocha -- test/*-test.js"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "chalk": "^2.0.0",
+    "cliff": "~0.1.8",
+    "commander": "^2.12.2",
+    "homedir": "^0.6.0",
+    "lodash.throttle": "^4.1.1",
+    "progress-bar": "~0.1.1",
+    "sanitize-filename": "^1.6.1",
+    "ytdl-core": "^0.20.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "license": "MIT"
+}
