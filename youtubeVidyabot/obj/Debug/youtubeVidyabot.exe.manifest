@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="youtubeVidyabot.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="youtubeVidyabot" version="1.0.0.0" publicKeyToken="1B516AA13B172F4C" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="youtubeVidyabot" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="youtubeVidyabot.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="youtubeVidyabot.exe" size="12768">
-      <assemblyIdentity name="youtubeVidyabot" version="1.0.0.0" publicKeyToken="1B516AA13B172F4C" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="youtubeVidyabot.exe" size="13280">
+      <assemblyIdentity name="youtubeVidyabot" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>iOc69DNDF0yKQJsd7I5I7go8ESWWPi0nvHQmd0zrpjU=</dsig:DigestValue>
+        <dsig:DigestValue>6yU6brvnswjWr0380rdtiwjfeCjX9bE+rr+X7sZJMHU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

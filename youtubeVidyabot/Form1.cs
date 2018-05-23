@@ -98,7 +98,7 @@ namespace youtubeVidyabot
                     string[] linetoks = item.Split(new char[] { ':' });
                     foreach (var c in Path.GetInvalidFileNameChars())//also replace characters which make filenames invalid 
                     {
-                        linetoks[1] = linetoks[1].Replace(c, '-'); ;
+                        linetoks[1] = linetoks[1].Replace(c, '-');
 
                     }
                     items.Add(linetoks[0], linetoks[1]);
@@ -136,6 +136,7 @@ namespace youtubeVidyabot
             path = "cd " + System.Environment.CurrentDirectory;
             path += " && ffmpeg.exe -i " + " " + items["title"] + " conv" + items["title"] + ".mp3";
 
+            
             ExecuteCommandSync(path);
             //@"'{ author.name } - { title }'" "
             filename = filename.Replace('╚', ' ');
@@ -147,7 +148,12 @@ namespace youtubeVidyabot
                 System.IO.File.Delete("mp3s\\" + filename);
             }
 
+            //appends a songname to a list of song names in a file so that the user can later download it 
+            File.AppendAllText("C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\vidyaServer\\vidyaServer\\songlists\\leo_.txt", filename + ";");
+
+
             System.IO.File.Move("conv" + items["title"] + ".mp3", "mp3s\\" + filename);
+
             foreach (string item in files)
             {
                 if (item.Contains("╚"))
@@ -197,6 +203,8 @@ namespace youtubeVidyabot
         /// <span class="code-SummaryComment"><returns>string, as output of the command.</returns></span>
         public void ExecuteCommandSync(object command)
         {
+            string pal = "abba";
+
             try
             {
                 // create the ProcessStartInfo using "cmd" as the program to be run,
@@ -233,6 +241,12 @@ namespace youtubeVidyabot
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string param = "explorer.exe " + System.Environment.CurrentDirectory + "\\mp3s";
+            ExecuteCommandSync(param);
         }
     }
 }
