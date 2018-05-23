@@ -151,6 +151,9 @@ namespace youtubeVidyabot
             //appends a songname to a list of song names in a file so that the user can later download it 
             File.AppendAllText("C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\vidyaServer\\vidyaServer\\songlists\\leo_.txt", filename + ";");
 
+            int p = 5;
+            p++;
+
 
             System.IO.File.Move("conv" + items["title"] + ".mp3", "mp3s\\" + filename);
 
