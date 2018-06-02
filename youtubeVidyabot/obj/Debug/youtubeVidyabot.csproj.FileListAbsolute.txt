@@ -28,7 +28,6 @@ C:\Users\Admin\Documents\GitHub\ytmusicdl\youtubeVidyabot\bin\Debug\youtubeVidya
 C:\Users\Admin\Documents\GitHub\ytmusicdl\youtubeVidyabot\bin\Debug\youtubeVidyabot.application
 C:\Users\Admin\Documents\GitHub\ytmusicdl\youtubeVidyabot\bin\Debug\youtubeVidyabot.exe
 C:\Users\Admin\Documents\GitHub\ytmusicdl\youtubeVidyabot\bin\Debug\youtubeVidyabot.pdb
-C:\Users\Admin\Documents\GitHub\ytmusicdl\youtubeVidyabot\obj\Debug\youtubeVidyabot.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\ytmusicdl\youtubeVidyabot\obj\Debug\youtubeVidyabot.Form1.resources
 C:\Users\Admin\Documents\GitHub\ytmusicdl\youtubeVidyabot\obj\Debug\youtubeVidyabot.Properties.Resources.resources
 C:\Users\Admin\Documents\GitHub\ytmusicdl\youtubeVidyabot\obj\Debug\youtubeVidyabot.csproj.GenerateResource.Cache
@@ -38,3 +37,4 @@ C:\Users\Admin\Documents\GitHub\ytmusicdl\youtubeVidyabot\obj\Debug\youtubeVidya
 C:\Users\Admin\Documents\GitHub\ytmusicdl\youtubeVidyabot\obj\Debug\youtubeVidyabot.application
 C:\Users\Admin\Documents\GitHub\ytmusicdl\youtubeVidyabot\obj\Debug\youtubeVidyabot.exe
 C:\Users\Admin\Documents\GitHub\ytmusicdl\youtubeVidyabot\obj\Debug\youtubeVidyabot.pdb
+C:\Users\Admin\Documents\GitHub\ytmusicdl\youtubeVidyabot\obj\Debug\youtubeVidyabot.csprojAssemblyReference.cache

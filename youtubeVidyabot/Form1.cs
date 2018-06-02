@@ -83,12 +83,7 @@ namespace youtubeVidyabot
                 List<Tuple<string,string> >song_data = new List<Tuple<string, string>>();
                 namePair_list = namePair_list.Distinct().ToList();
 
-                string rewrite = "";
-                foreach (var item in namePair_list)
-                {
-                    rewrite += item + "|";
-                }
-                File.WriteAllText("C:\\Users\\Admin\\Documents\\GitHub\\vidserver\\vidServer\\song_request\\leo_.txt", rewrite);
+                File.WriteAllText("C:\\Users\\Admin\\Documents\\GitHub\\vidserver\\vidServer\\song_request\\leo_.txt", "");
 
                 foreach (string pair in url_namePair)
                 {
@@ -151,6 +146,7 @@ namespace youtubeVidyabot
             {
                 richTextBox1.Text = output;
             }));
+
 
             // this is not thread safe richTextBox1.Text = output;
             // output = output.Replace(' ', '_'); //these pesky spaces dont work well as command line args || this is obviously not nesessary 
@@ -232,8 +228,11 @@ namespace youtubeVidyabot
                 }
             }
 
-            //think rich and ash, what caused this behaviour towards them.???  suggestions: extremely low self image, or beleif that the type of person perceived requires special interaction with and faking the persona eg 
-            //behaving normally is not good enough, i am not good enough 
+            //appends a songname to a list of song names in a file so that the user can later download it 
+            //change leo_ with a different person's username if needed 
+            File.AppendAllText("C:\\Users\\Admin\\Documents\\GitHub\\vidserver\\vidServer\\songlists\\leo_.txt", items["title"] + ";"); //no need to url encode the songname 
+            //because it wont be broken .(its not a url)
+
 
 
             //rename the song to its original name 
@@ -262,14 +261,8 @@ namespace youtubeVidyabot
             #endregion
 
 
-            string songname_urlsafe = System.Web.HttpUtility.UrlEncode(items["title"]);
 
 
-
-            //appends a songname to a list of song names in a file so that the user can later download it 
-            //change leo_ with a different person's username if needed 
-            File.AppendAllText("C:\\Users\\Admin\\Documents\\GitHub\\vidserver\\vidServer\\songlists\\leo_.txt", items["title"] + ";"); //no need to url encode the songname 
-            //because it wont be broken .(its not a url)
 
             int songcount = Convert.ToInt32(File.ReadAllText("C:\\Users\\Admin\\Documents\\GitHub\\vidserver\\vidServer\\leo_.txt"));
             songcount++;
