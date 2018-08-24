@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="youtubeVidyabot.exe" size="17376">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="youtubeVidyabot.exe" size="18400">
       <assemblyIdentity name="youtubeVidyabot" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xvKLXBRwc95pXtQM2MB9+lj8lNU63N9LOOx7zLtwrgs=</dsig:DigestValue>
+        <dsig:DigestValue>DOQ14A5PDVIp7eCuRiQCvGv2SNB0QjLSGBcW6QebMrM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

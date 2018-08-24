@@ -115,6 +115,7 @@ namespace youtubeVidyabot
 
         private void button1_Click(object sender, EventArgs e)
         {
+ 
 
             if (!richTextBox1.Text.Contains("you") || (richTextBox1.Text == ""))
             {
@@ -153,17 +154,17 @@ namespace youtubeVidyabot
             #endregion
 
             #region get_song_name
-            //extract the song's name from the downloaded data 
 
+            //extract the song's name from the downloaded json 
             string[] endline = output.Split(new char[] { '\n' });
 
-            Dictionary<string, string> items = new Dictionary<string, string>();
+           System.Collections.Generic.Dictionary<string, string> items = new System.Collections.Generic.Dictionary<string, string>();
             foreach (string item in endline)
             {
                 if (item != "")
                 {
                     string[] linetoks = item.Split(new char[] { ':' });
-                    foreach (var c in Path.GetInvalidFileNameChars())//also replace characters which make filenames invalid 
+                    foreach (var c in System.IO.Path.GetInvalidFileNameChars())//also replace characters which make filenames invalid 
                     {
                         linetoks[1] = linetoks[1].Replace(c, '-');
 
@@ -178,11 +179,11 @@ namespace youtubeVidyabot
 
             //----------------------------------------------------
             //make items title filename safe
-            items["title"] = Path.GetInvalidFileNameChars().Aggregate(items["title"],
+            items["title"] = System.IO.Path.GetInvalidFileNameChars().Aggregate(items["title"],
            (current, c) => current.Replace(c, '-'));
 
             //remove anything that is not a letter lol
-            List<char> badCh = new List<char>();
+            System.Collections.Generic.List<char> badCh = new System.Collections.Generic.List<char>();
             foreach (char item in items["title"])
             {
                 if (item < 65 || (item > 90 && item < 97) || item > 122)
@@ -192,7 +193,7 @@ namespace youtubeVidyabot
             }
             foreach (var item in badCh) //remove everything!
             {
-                items["title"] = items["title"].Replace(item, Convert.ToChar(0));
+                items["title"] = items["title"].Replace(item, System.Convert.ToChar(0));
             }
             if (items["title"].Length < 3)
             {
@@ -217,7 +218,7 @@ namespace youtubeVidyabot
 
             //find the song in the filesystem to rename it later 
             string[] files =
-            System.IO.Directory.GetFiles(Environment.CurrentDirectory);
+            System.IO.Directory.GetFiles(System.Environment.CurrentDirectory);
             string FILE_NAME = "";
             foreach (string item in files)
             {
@@ -230,7 +231,7 @@ namespace youtubeVidyabot
 
             //appends a songname to a list of song names in a file so that the user can later download it 
             //change leo_ with a different person's username if needed 
-            File.AppendAllText("C:\\Users\\Admin\\Documents\\GitHub\\vidserver\\vidServer\\songlists\\leo_.txt", items["title"] + ";"); //no need to url encode the songname 
+            System.IO.File.AppendAllText("C:\\Users\\Admin\\Documents\\GitHub\\vidserver\\vidServer\\songlists\\leo_.txt", items["title"] + ";"); //no need to url encode the songname 
             //because it wont be broken .(its not a url)
 
 
